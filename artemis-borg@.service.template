@@ -1,0 +1,14 @@
+[Unit]
+Description=Run Artemis borg in %i folder
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=USERNAME
+ExecStart=/bin/bash -c '/home/USERNAME/%i/boot.sh'
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
