@@ -1,4 +1,4 @@
-# setup-artemis-borgs
+# Artemis Borgs
 Instructions on how to set up a server with Artemis borgs.
 
 ## Setup
